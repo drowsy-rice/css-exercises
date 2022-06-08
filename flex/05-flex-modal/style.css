@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
 }
 
 .icon {
@@ -46,7 +47,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  margin-left: 110px;
+  }
 
 button {
   padding: 8px 16px;
@@ -63,4 +65,26 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.topshit {
+  display: flex;
+ 
+}
+
+.header {
+ font-weight: bold;
+ font-size: larger; 
+ display: flex;
+ padding-left: 13px;
+ padding-top: 5px;
+ }
+
+.text {
+  padding-left: 55px;
+}
+
+.choices {
+  padding-left: 55px;
+  padding-top: 15px;
 }
